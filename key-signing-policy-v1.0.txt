@@ -1,0 +1,80 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Key Signing Policy for Wojciech Szaranski
+=========================================
+Version 1.0
+
+
+pub   4096R/6E343EEA 2012-12-13 [expires: 2016-12-13]
+      Key fingerprint = 5AE5 BE59 DC7D 1B47 7A8B  2A98 5A3B E9FA 6E34 3EEA
+uid                  Wojciech Szaranski <owner@weird.cat>
+uid                  [jpeg image of size 5942]
+uid                  Wojciech Szaranski <w.szaranski@softintegrated.com>
+uid                  Wojciech Szaranski <w.szaranski@fairsquare.com>
+sub   4096R/2FFF4543 2012-12-13 [expires: 2019-12-14]
+
+
+This policy is valid from 2013-11-03 for signatures made by my GnuPG key
+with Key ID 0x6E343EEA. (Some signatures before this date were also made
+under the following conditions. No key was ever signed without checking
+the identity of the person and the fingerprint.)
+
+This policy may be replaced by a new version. All versions with corresponding
+links are listed in the changelog.
+
+Before I sign a key, I
+  - verify the identity of the person owning the to-be-signed key by 
+    either knowing them for a long time or looking at their identity 
+    card or equivalent proof of identity.
+  - receive the key fingerprint from the key owner directly and in hardcopy.
+
+
+A signature is always on an user id. By signing an user id, I confirm that the 
+person, who gave me the fingerprint of that key, has the claimed name. I do
+not sign user ids with pseudonyms or corporate ids.
+
+
+Description of my use of trustlevels:
+- ---
+sig3 - I have verified the identity and verified, that the e-mail address
+       of the signed uid belongs to the person, who has control over the
+       key. This is done by a challenge-response system or by sending the
+       signed key to the corresponding user id (both via encrypted mail).
+
+sig2 - I have verified the identity - but not the e-mail address (for
+       example because the key does not support encryption to it).
+
+sig1 - unused
+
+You can get my key from one of the public keyservers (like hkp://pgp.mit.edu).
+
+
+Credits
+- ---
+This policy was inspired by Sebastian Inacker and Raimar Sandner.
+
+
+Changelog
+- ---
+1.0 (initial Document), valid from 2013-11-03
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQIcBAEBAgAGBQJSdrM2AAoJEPS2Cp8v/0VDvngP/3iujz7EQnLEoWgFQn/jNY/G
+aqVF08FaomOmwS+M/0v/9fL0rJ9M+m+QOmilmlxSA5tzanfPzVqpC5YSYlTPcLww
+6I60g3zBl6/ykFpoBkL3FjYNSGo8u661aMoCPFp7MUR/KwSuaaENYpTBfoguh5qI
+SBNwerdeAd5/n1bs0LNI8Xa4XptOOoHt1kggwua+R8loobvj6sICrZqt0nOccuHT
+osZFgJCi2XGTIh+GM5Qg+y08/BWpjvgogCBDifI17aIy3WOPw/8BGsN7Vtn1QTBH
+7aBenn0AA5tFXSa9FSQh2x1lx73D4aCQuiSd7+TzmgRPlc3NZMVDcvXyR3+02dpV
+f0Pav5yEOZx44WjmpwkOfNkYbVf8fojDbPgUdgWgeMXsz/h+1HAJ0fofCvl9+evi
+XMuL8ZYWl1L9nj71NCnxpfMQC0avjeAOS+Y983X3ZcFQ0Dm8xijzzSP3+cADFAKU
+PTg3ciT/K1zcM5Jghs6HnRIGEXUjidJbeAGaOWUMex4F1FUudg0V7+TwB9ZAgBWN
+FzVQsf4COGZeB9yxag6oC2e+IYUHlJa14NfTxjvIaKQdE2ENrlmaByRyyuWEd02G
+4Pohp1UmbMzFWIiFb6Ds3l6sjzTiUoHtwoW1y+BiJklS0InKcAwCjExjxwFvnqeq
+cwnmLBzs4GiQR+9oLleR
+=+s01
+-----END PGP SIGNATURE-----
